@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f4f6f9;
+  color:#333;
+}
+
+header{
+  background:#0b3d91;
+  color:white;
+  padding:20px;
+}
+
+.container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+nav a{
+  color:white;
+  margin:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero{
+  background:#1976d2;
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h2{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:20px;
+  margin-bottom:25px;
+}
+
+.btn{
+  background:#25d366;
+  color:white;
+  padding:12px 20px;
+  text-decoration:none;
+  border-radius:5px;
+  display:inline-block;
+}
+
+section{
+  padding:50px 10%;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.search-section{
+  text-align:center;
+}
+
+.search-section input{
+  padding:10px;
+  margin:10px;
+  width:250px;
+}
+
+.search-section button{
+  padding:10px 20px;
+  background:#0b3d91;
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+
+.job-card,
+.testimonial-card,
+.contact-box{
+  background:white;
+  padding:25px;
+  margin:20px auto;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.job-card{
+  width:70%;
+}
+
+.testimonial-card{
+  width:60%;
+}
+
+form{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea,
+form select{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+form button{
+  background:#0b3d91;
+  color:white;
+  border:none;
+  padding:12px;
+  width:100%;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+ul{
+  list-style:none;
+}
+
+ul li{
+  background:white;
+  padding:15px;
+  margin:10px auto;
+  width:50%;
+  border-radius:8px;
+  text-align:center;
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+@media(max-width:768px){
+
+  .container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  nav{
+    margin-top:15px;
+  }
+
+  .job-card,
+  .testimonial-card,
+  ul li{
+    width:100%;
+  }
+
+}
